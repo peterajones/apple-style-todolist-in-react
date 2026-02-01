@@ -23,6 +23,8 @@ The 'Show Completed' link has now changed to 'Hide Completed' which upon clickin
 
 ## How to get started
 
+This project uses [Vite](https://vitejs.dev/) as its build tool (migrated from Create React App).
+
 In the project directory, you can run:
 
 ### `npm install` - this installs the project's dependencies
@@ -33,4 +35,8 @@ Now you can run:
 
 This will run the app in development mode.<br>
 Open [http://localhost:5678](http://localhost:5678) to view the app in the browser.
+
+### `npm run build`
+
+Builds the app for production to the `dist` folder.
 

@@ -3,35 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "eslint-utils": ">=1.4.1",
     "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-<<<<<<< HEAD
-    "react-scripts": "^5.0.1"
-=======
-    "react-scripts": "5.0.1",
-    "eslint-utils": ">=1.4.1"
->>>>>>> b845e4b4267468761b59357dca0861c10a1bc656
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "vite": "^6.1.0",
+    "@vitejs/plugin-react": "^4.3.4"
   },
   "scripts": {
-    "start": "PORT=5678 react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+    "start": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   }
 }
